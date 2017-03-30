@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="static/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h3 class="text-muted">上传文件</h3>
+            <h5></h5>
+        </div>
+    <hr/>
+        <div>
+            <form action="upload" method="post" enctype="multipart/form-data">
+                <input type="file" multiple="" name="file[]" class="span3" /><br/>
+                <input type="submit" value="提交" class="span2">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
